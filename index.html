@@ -1,16 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript_Praactice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>JavaScript_Praactice</h1>
+    <br>
+
+    <button onclick="
+
+
+    let userName= 'admin'
+    let password ='Password1'
+
+    if(userName != 'admin' && password!= 'Password1' ){
+        console.log('Invalid Credentials')
+    }else{
+        location.href='http://www.google.com';
+    }
+
+
+    ">
+    Okay
+    </button> -->
 
     <h1>JavaScript_Praactice</h1>
 
+    <button
+      onclick="
+    console.log(`your cart has this amount of items: ${cartQuantity} `);
+
     
-<script src="main.js"></script>
-</body>
+    "
+    >
+      Display
+    </button>
+
+    <button
+    onclick="
+   
+    console.log(`your cart has this amount of items: ${++cartQuantity} `);
+
+    "
+    
+    
+    >Add Qnty</button>
+    <button
+    onclick="
+
+cartQuantity= cartQuantity+2;
+   
+    console.log(`your cart has this amount of items: ${cartQuantity} `);
+
+    "
+    
+    
+    
+    >+2</button>
+    <button
+    onclick="
+
+    cartQuantity= cartQuantity+3;
+       
+        console.log(`your cart has this amount of items: ${cartQuantity} `);
+    
+        "
+        
+    
+    >+ 3</button>
+    <button
+    
+    onclick="
+   
+    console.log(`your cart has this amount of items: ${--cartQuantity} `);
+
+    "
+    
+    >Remove</button>
+    <button
+    
+    onclick="
+
+    cartQuantity= 0;
+       
+        console.log(`your cart is empty : ${cartQuantity} `);
+    
+        "
+        
+    
+    
+    >clear cart</button>
+
+    <script>
+      // khdfkds
+
+      let cartQuantity = 0;
+    </script>
+  </body>
 </html>

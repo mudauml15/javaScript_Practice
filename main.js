@@ -1,29 +1,50 @@
-let num1 = 12;
-let numb2 = 2;
+// let num1 = Number(prompt('enter nummber'));
+// op = prompt('Enter your operator');
+// let numb2 = Number(prompt('Enter second number'))
 
-op = prompt('Enter your operator');
 
-if (op==='+'){
 
-console.log(num1+ numb2);
 
-} else if (op ==='-'){
-    console.log(num1- numb2);
-} else if(op ==='*')
 
-{
+// if (op==='+'){
 
-    console.log(num1 * numb2);
-}
+// console.log('your answer is ' +`${num1+numb2}` );
 
-else if (op ==='/')
+// } else if (op ==='-'){
+//     console.log(num1- numb2);
+// } else if(op ==='*')
 
-{
+// {
 
-    console.log(num1/numb2);
-}
+//     console.log(num1 * numb2);
+// }
 
-else
-{
-    console.log('invalid operator')
-}
+// else if (op ==='/')
+
+// {
+
+//     console.log(num1/numb2);
+// }
+
+// else
+// {
+//     console.log('invalid operator')
+// }
+
+
+// let Fname = prompt('enter your name');
+
+
+// let Age = Number(prompt('Enter your age'));
+// let citizen = prompt('Enter your citizenship');
+
+
+// if(Age >= 18 && citizen === 'SA'){
+// alert('Hi ' + Fname+ ' Congres you qualifiy to vote!!'); console.log('object')
+// } else{
+
+//     alert('Hi ' +  " Sorry you don't qualifiy to vote! \n Coz you either young or not SA citizen");
+// }
+
+
+
